@@ -1,0 +1,89 @@
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+h3{
+    font-size: 40px;
+    font-family: 'Gochi Hand';
+  }
+  
+  body{
+    background: antiquewhite;
+    min-height: 100vh;
+  }
+  
+  .navbar{
+    background-color: cadetblue;
+    color: cornsilk;
+    border-bottom: 4px solid black;
+  }
+  
+  .nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0; 
+}
+  
+.nav a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+  
+  .nav a:hover {
+    background: #1565C0;
+}
+
+  section{
+    padding: 15px;
+  }
+
+.box{
+  border: 4px solid olive;
+}
+.is-horizontal-center{
+  justify-content: center;
+}
+
+ .dateNightGif{
+   justify-content: center;
+ }
+
+ .abtMe{
+     font-size: 40px;
+ }
+
+ .intro{
+     font-size: 20px;
+ }
+
+.links{
+  background-color:white;
+}
+
+.contactInfo{
+    font-size: 20px;
+    font-weight: bolder;
+  }
+ 
