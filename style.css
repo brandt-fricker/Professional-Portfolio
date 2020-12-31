@@ -67,7 +67,12 @@ section {
 }
 
 .dateNightGif {
-  justify-content: center;
+  /* justify-content: center; */
+}
+.eatBurgersGif{
+  /* justify-content: center; */
+  /* object-fit: contain; */
+
 }
 
 .abtMe {
